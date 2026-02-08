@@ -2,7 +2,7 @@
 
 **Yinov AI - Document Assistant**, yerel LLM (Ollama) kullanarak yüklenen PDF ve TXT dokümanları üzerinden soru cevaplayan, gizlilik odaklı ve yüksek performanslı bir RAG (Retrieval-Augmented Generation) servisidir.
 
-## 🚀 Proje Hakkında
+## Proje Hakkında
 Bu proje, modern yapay zeka teknolojilerini (LLM, Vector Search) kullanarak kurumsal veya kişisel dokümanların analiz edilmesini sağlar. Verileriniz tamamen **yerel makinenizde** işlenir ve saklanır, herhangi bir bulut servisine gönderilmez.
 
 ### Öne Çıkan Özellikler
@@ -11,11 +11,10 @@ Bu proje, modern yapay zeka teknolojilerini (LLM, Vector Search) kullanarak kuru
 *   **Hızlı ve Güvenli:** FastAPI ile asenkron API yapısı ve ChromaDB ile vektör tabanlı hızlı arama.
 *   **Clean Architecture:** Modüler, test edilebilir ve genişletilebilir kod yapısı.
 
-## � Arayüz
+##  Arayüz
+<img width="2871" height="1529" alt="interface" src="https://github.com/user-attachments/assets/b056b260-b72d-49f4-b95b-281988819eb1" />
 
-![Yinov AI Interface](docs/interface_screenshot.png)
-
-## �🛠️ Kurulum Adımları
+##  Kurulum Adımları
 
 Projeyi çalıştırmak için aşağıdaki adımları takip edin.
 
@@ -59,7 +58,7 @@ uvicorn app.main:app --reload
 ```
 Uygulamanız **http://127.0.0.1:8000** adresinde yayında olacaktır.
 
-## 🏗️ Teknoloji Seçimi ve Gerekçelendirme
+## Teknoloji Seçimi ve Gerekçelendirme
 
 Projenin mimarisinde kullanılan teknolojiler, performans ve sürdürülebilirlik gözetilerek seçilmiştir:
 
@@ -71,7 +70,7 @@ Projenin mimarisinde kullanılan teknolojiler, performans ve sürdürülebilirli
 | **Ollama** | Llama 3, Mistral gibi güçlü modelleri yerel makinede (CPU/GPU) çalıştırmayı sağlayan en pratik çözümdür. Docker benzeri yapısıyla model yönetimini kolaylaştırır. |
 | **Pydantic** | Veri doğrulama (data validation) ve ayar yönetimi için kullanıldı. Tip güvenliği (type safety) sağlayarak çalışma zamanı hatalarını minimize eder. |
 
-## 🧪 Testler
+## Testler
 Birim testlerini çalıştırmak için:
 ```bash
 pytest tests/
@@ -79,4 +78,4 @@ pytest tests/
 
 ---
 **Geliştirici:** İpek Bulgurcu
-**Lisans:** MIT
+

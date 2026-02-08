@@ -11,7 +11,11 @@ Bu proje, modern yapay zeka teknolojilerini (LLM, Vector Search) kullanarak kuru
 *   **Hızlı ve Güvenli:** FastAPI ile asenkron API yapısı ve ChromaDB ile vektör tabanlı hızlı arama.
 *   **Clean Architecture:** Modüler, test edilebilir ve genişletilebilir kod yapısı.
 
-## 🛠️ Kurulum Adımları
+## � Arayüz
+
+![Yinov AI Interface](docs/interface_screenshot.png)
+
+## �🛠️ Kurulum Adımları
 
 Projeyi çalıştırmak için aşağıdaki adımları takip edin.
 
